@@ -1,0 +1,10 @@
+body
+{
+	background-color: #E4E1DD;
+}
+.btn btn-primary
+{
+    color: #FFFFFF; /* Đặt màu chữ khi di chuột qua nút */
+    background-color: #A4937C; /* Đặt màu nền khi di chuột qua nút */
+    border-color: #635444; /* Đặt màu đường viền khi di chuột qua nút */
+}

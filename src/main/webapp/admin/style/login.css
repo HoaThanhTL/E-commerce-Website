@@ -1,0 +1,43 @@
+.Wallpaper_Login
+{
+    position: fixed; /* Đảm bảo rằng hình ảnh sẽ nổi trên cả trang */
+    z-index: -1; /* Đặt z-index để đảm bảo rằng hình ảnh sẽ nổi sau tất cả các phần tử khác */
+    object-fit: cover; /* Đảm bảo rằng hình ảnh sẽ đầy đủ kích thước không gian được cung cấp */
+}
+.login_form
+{
+    position: relative;
+    z-index: 1;
+    top: 330px;
+}
+.table_login input 
+{
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 350px;
+    padding: 4px; /* Đặt kích thước padding theo mong muốn */
+    font-size: 18px; /* Đặt kích thước font theo mong muốn */
+    border: 3px solid #A4937C; /* Thêm đường viền nếu cần */
+    background-color: transparent; /* Đặt màu nền theo mong muốn */
+    border-radius: 5px; /* Thêm góc cong nếu cần */
+}
+#remember-me 
+{ 
+	width: 20px;
+}
+.form-submit 
+{
+    margin-top: 10px;
+    width: 200px;   
+    padding: 4px 70px; /* Đặt kích thước padding theo mong muốn */
+    font-size: 16px; /* Đặt kích thước font theo mong muốn */
+    border-radius: 5px; /* Thêm góc cong nếu cần */
+    border: 1px solid #FFFFFF; /* Thêm đường viền nếu cần */
+    background-color: #A4937C; /* Đặt màu nền theo mong muốn */
+    color: #635444; /* Đặt màu chữ theo mong muốn */
+    cursor: pointer; /* Thêm hiệu ứng con trỏ khi di chuột qua nút */
+}
+a
+{
+    text-decoration: none;
+    color: #635444; /* Màu chữ */
+}

@@ -1,0 +1,45 @@
+body
+{
+    background-color: #E4E1DD;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+.welcome_customer
+{
+    margin-top: 2rem;
+}
+.signup
+{
+	margin-top: 20px;
+}
+.table_profile
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.table_profile input 
+{
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 310px;
+    padding: 4px; /* Đặt kích thước padding theo mong muốn */
+    font-size: 14px; /* Đặt kích thước font theo mong muốn */
+    border: 1px solid #ccc; /* Thêm đường viền nếu cần */
+    border-radius: 5px; /* Thêm góc cong nếu cần */
+}
+.welcome_customer, 
+.table_profile td, 
+.edit_profile_link a
+{
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #444342;
+    text-decoration: none; /* Loại bỏ dòng gạch dưới */
+    padding: 2px;
+}
+.edit_profile_link,
+.button_confirm input[type="submit"] 
+{
+    width: 200px;
+    color: #FFFFFF;
+    background-color: #A4937C;
+}

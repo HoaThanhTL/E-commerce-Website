@@ -1,0 +1,146 @@
+.footer
+{
+    height: 200px; /* Chiều cao của footer */
+    width: 1366px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+h5 
+{
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+a 
+{
+    color: #444342;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a 
+{
+    color: #444342;
+    text-decoration: none;
+}
+
+.footer .container-fluid 
+{
+    padding: 0;
+}
+
+.footer .divider {
+    width: 100%;
+    height: .1rem;
+    margin: 2rem 0 1.5rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer .col {
+    text-align: center;
+}
+
+.footer ul.nav-footer {
+    float: left !important;
+    padding: 0;
+    width: 100%;
+}
+
+.footer ul.nav-footer li {
+    display: block;
+    float: left;
+    margin-top: .5rem;
+    width: 100%;
+}
+
+.footer ul.nav-footer .nav-link {
+    color: #6e6b69;
+    padding: 0;
+    width: 100%;
+}
+
+.footer ul.nav-footer .nav-link:hover {
+    color: #c2ab87;
+}
+
+.footer .copyright 
+{
+    color: #6e6b69;
+}
+
+.footer .social li 
+{
+    margin-top: .5rem;
+    margin-left: .4rem;
+}
+
+.footer .social li a 
+{
+    background: none;
+    color: #6e6b69;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.footer .social li a:hover {
+    color: #c2ab87;
+}
+
+@media screen and (max-width: 768px) {
+    .footer .nav-footer {
+        width: auto;
+        display: inline;
+    }
+}
+
+.nav-footer {
+    list-style: none;
+    float: right;
+}
+
+.nav-footer li {
+    float: left;
+    margin-top: .5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-footer {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+.social 
+{
+    margin: 0 auto;
+    padding: 0;
+}
+.social li 
+{
+    display: inline-block;
+}
+
+.social li a {
+    display: block;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: .4rem .1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #6e6b69;
+    font-size: 1.2rem;
+}
+
+.social li a:hover 
+{
+    color: #c2ab87;
+    border-color: #c2ab87;
+}
+.footer_logo
+{
+	width: 200px;
+	margin-top: -30px
+}
